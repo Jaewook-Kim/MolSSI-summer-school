@@ -1,0 +1,40 @@
+>>> import sssdevops
+>>> sssdevops.
+sssdevops.listtools  sssdevops.mean(      sssdevops.split(     sssdevops.sssdevops  
+>>> sssdevops.mean([1,2,3,4,5])
+3.0
+>>> help(sssdevops.mean)
+  : print the top comment (helps)
+>>> help(sssdevops)
+
+
+installing package
+$ ls ~/program/anaconda3/envs/sssdevops_env/lib/python3.7/site-packages/
+# 있을거다....
+
+#setup
+$ pip install -e .
+# sssdevops.egg-info directory is created
+# to unistall
+$ pip uninstall sssdevops
+
+# activate and deactivate python environment
+$ source activate sssdevops_env
+$ source unactivate
+
+
+
+PEP8 style guide for python!
+
+YAPF can modify file to fit style guide
+$ pip install yapf
+$ yapf -i sssdevops.py  #formatted!
+# yapf is configurable, and we can make them ignore some lines (such as beutifully constructed table, do not ruin them!)
+
+handy tool for updating version info
+https://github.com/warner/python-versioneer
+####after following instructions...
+>>> import sssdevops
+>>> sssdevops.__version__
+'0+untagged.1.gcfa280b.dirty'
+### commit!
