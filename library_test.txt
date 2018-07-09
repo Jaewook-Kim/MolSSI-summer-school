@@ -23,7 +23,6 @@ $ source activate sssdevops_env
 $ source unactivate
 
 
-
 PEP8 style guide for python!
 
 YAPF can modify file to fit style guide
@@ -42,5 +41,7 @@ $ git commit -m "Implement directory structure"
 $ git tag -a v1.0
 >>> import sssdevops
 >>> sssdevops.__version__
-'v1.0+0.g4973a62.dirty'
+'v1.0'
+'v1.0+0.g4973a62.dirty' # if modified after the tagged commit
+
 
