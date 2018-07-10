@@ -59,3 +59,13 @@ $pytest -v --cov=./  # cov : coverage for the following directory
 travis-ci.org
 For the  Continuous Integration
 .travis.yml
+ : build coverage and test it. super good!
+
+coverage badge
+codecov.io
+support github, gitlab, ...
+get info from travis output, and keep tracking test coverage.
+you should insatll codecov! (see setup.py)
+once you have added the project on codecov.io,
+$ /home/jk424/program/anaconda3/envs/sssdevops_env/bin/codecov --token=667eeaa3-f597-4635-ac71-4974a71b22bc
+configuration file : .codecov.yml
