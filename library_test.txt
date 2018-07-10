@@ -45,3 +45,11 @@ $ git tag -a v1.0
 'v1.0+0.g4973a62.dirty' # if modified after the tagged commit
 
 
+
+
+
+setup.py에 있는 environment를 깔고 가기...
+$ pip install -e .[tests]
+
+pytest module을 사용하자
+$pytest -v --cov=./  # cov : coverage for the following directory
