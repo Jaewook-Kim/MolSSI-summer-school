@@ -53,3 +53,9 @@ $ pip install -e .[tests]
 
 pytest module을 사용하자
 $pytest -v --cov=./  # cov : coverage for the following directory
+
+
+
+travis-ci.org
+For the  Continuous Integration
+.travis.yml
